@@ -12,8 +12,14 @@ git remote add origin 'https://github.com/usuario/nomedorepositorio.git' <!-- Ad
 ///Comandos para manipular os arquivos/// 
 git add (nome do arquivo(usando o '.' ele seleciona todos os arquivos)) <!-- Adiciona um arquivo para seleção -->
 git commit -m "'comentário'" <!-- Entrega o/s arquivo/s  -->
-git push -u origin main <!-- Manda os arquivos pra nuvem ('-u' só é necessário na primeira vez)-->
+git push -u origin 'nome da branch' <!-- Manda os arquivos pra nuvem ('-u' só é necessário na primeira vez)-->
 git status <!-- Mostra informações -->
+git checkout -b "'nome'" <!-- Criando uma nova branch -->
+git checkout 'nome' <!-- Alterna entre as branches -->
+git merge "nome" <!-- Junta a branch que foi chamada com a que está logada-->
+git clone 'https://github.com/usuario/nomedorepositorio.git' <!-- Copia algum projeto da nuvem para local-->
+git pull <!-- Atualiza os arquivos locais caso o projeto que está na nuvem foi alterado -->
+
 
 
 ///Comandos diversos///
