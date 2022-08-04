@@ -15,7 +15,6 @@ git commit -m "'comentário'" <!-- Entrega o/s arquivo/s  -->
 git push -u origin main <!-- Manda os arquivos pra nuvem ('-u' só é necessário na primeira vez)-->
 git status <!-- Mostra informações -->
 
-<!--  -->
 
 ///Comandos diversos///
 git branch -m "'nome'" <!-- Renomeia o nome da branch (no caso estava como master mas o github usa main) -->
