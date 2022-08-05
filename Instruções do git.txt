@@ -19,8 +19,8 @@ git checkout 'nome' <!-- Alterna entre as branches -->
 git merge "nome" <!-- Junta a branch que foi chamada com a que está logada-->
 git clone 'https://github.com/usuario/nomedorepositorio.git' <!-- Copia algum projeto da nuvem para local-->
 git pull <!-- Atualiza os arquivos locais caso o projeto que está na nuvem foi alterado -->
-
-
+git mkdir "nome" <!-- Cria uma pasta -->
+git cd "nome da pasta" (escrevendo 'cd -' ele volta)<!-- Acessa a pasta-->
 
 ///Comandos diversos///
 git branch -m "'nome'" <!-- Renomeia o nome da branch (no caso estava como master mas o github usa main) -->
