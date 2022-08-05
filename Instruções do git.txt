@@ -21,6 +21,7 @@ git clone 'https://github.com/usuario/nomedorepositorio.git' <!-- Copia algum pr
 git pull <!-- Atualiza os arquivos locais caso o projeto que está na nuvem foi alterado -->
 git mkdir "nome" <!-- Cria uma pasta -->
 git cd "nome da pasta" (escrevendo 'cd -' ele volta)<!-- Acessa a pasta-->
+git reset HEAD "caminho/nome" <!-- Para remover algum arquivo do stage -->
 
 ///Comandos diversos///
 git branch -m "'nome'" <!-- Renomeia o nome da branch (no caso estava como master mas o github usa main) -->
